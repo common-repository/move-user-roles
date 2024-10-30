@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ms-container div.ms-selectable {
+    background-color: transparent !important;
+}
+
+.ms-container div.ms-selectable ul.ms-list {
+    background-color: #FFF;
+}
+
+.ms-container div.ms-selection {
+    background-color: transparent !important;
+}
+
+.ms-container div.ms-selection ul.ms-list {
+    background-color: #FFF;
+}
+
+.ms-container div.ms-selectable div.custom-header,
+.ms-container div.ms-selection div.custom-header {
+    font-weight: bold;
+    padding-left: 3px;
+}
+/*html.wp-toolbar body.wp-admin.wp-core-ui.js.settings_page_move-user-role-settings.auto-fold.admin-bar.branch-5-6.version-5-6-2.admin-color-fresh.locale-en-us.customize-support.svg div#wpwrap div#wpcontent div#wpbody div#wpbody-content div.wrap form table.form-table tbody tr td table.table tbody tr td.header*/
+/*
+.settings_page_move-user-role-settings table.mur-table td {
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+}
+
+.settings_page_move-user-role-settings table.mur-table td.mur-header {
+    text-align: center;
+    font-weight: bold;
+    border: 1px dashed #CCC;
+}*/
+.table.mur-table tr:nth-child(2) td {
+    padding-top: 14px;
+}
+.table.mur-table tr td:nth-child(2) {
+    padding-left: 60px;
+}
+
+.tools_page_move-user-role-settings table.mur-table td.mur-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #2271b1;
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
